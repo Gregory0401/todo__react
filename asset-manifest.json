@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Todo__react/static/css/main.bc8cd09a.css",
-    "main.js": "/Todo__react/static/js/main.29f064c7.js",
-    "index.html": "/Todo__react/index.html",
-    "main.bc8cd09a.css.map": "/Todo__react/static/css/main.bc8cd09a.css.map",
-    "main.29f064c7.js.map": "/Todo__react/static/js/main.29f064c7.js.map"
+    "main.css": "/todo__react/static/css/main.bc8cd09a.css",
+    "main.js": "/todo__react/static/js/main.29f064c7.js",
+    "index.html": "/todo__react/index.html",
+    "main.bc8cd09a.css.map": "/todo__react/static/css/main.bc8cd09a.css.map",
+    "main.29f064c7.js.map": "/todo__react/static/js/main.29f064c7.js.map"
   },
   "entrypoints": [
     "static/css/main.bc8cd09a.css",
