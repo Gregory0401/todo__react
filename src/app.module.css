@@ -1,0 +1,24 @@
+@media screen and (min-width: 350px) {
+  .container {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+.container {
+  background-color: rgb(193, 198, 198);
+  padding: 20px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(66, 67, 67);
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .filter {
+  background-color: rgb(16, 222, 222);
+}
+.task {
+  background-color: rgb(222, 129, 16);
+} */
