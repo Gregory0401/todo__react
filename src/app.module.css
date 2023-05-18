@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap'),
+    url('./font/DancingScript-Bold.ttf');
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./font/Pacifico-Regular.ttf');
+}
+
 @media screen and (min-width: 350px) {
   .container {
     width: 320px;
@@ -15,11 +25,13 @@
     box-shadow: none;
   }
   .h2 {
+    font-family: 'Dancing Script';
     position: absolute;
     top: 0px;
     left: 430px;
   }
   .h1 {
+    font-family: 'Dancing Script';
     width: 50px;
     font-size: 20px;
     position: absolute;
@@ -31,13 +43,15 @@
     position: absolute;
     top: 50px;
     left: 350px;
+    font-family: 'Pacifico';
+    font-weight: 200;
   }
 }
 .container {
   position: relative;
 
   padding: 10px 10px 20px 10px;
-  /* border-radius: 10px; */
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,6 +59,3 @@
   margin-left: 30px;
   margin-top: 50px;
 }
-/* .task {
-  background-color: rgb(222, 129, 16);
-} */
