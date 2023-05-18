@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/todo__react/static/css/main.487db975.css",
-    "main.js": "/todo__react/static/js/main.d4516ba8.js",
+    "main.css": "/todo__react/static/css/main.8bf298b1.css",
+    "main.js": "/todo__react/static/js/main.477e1c23.js",
+    "static/media/папка.png": "/todo__react/static/media/папка.948ccc47ac7c267dfeac.png",
+    "static/media/folder-desktop.png": "/todo__react/static/media/folder-desktop.2255f80534a999aec277.png",
     "index.html": "/todo__react/index.html",
-    "main.487db975.css.map": "/todo__react/static/css/main.487db975.css.map",
-    "main.d4516ba8.js.map": "/todo__react/static/js/main.d4516ba8.js.map"
+    "main.8bf298b1.css.map": "/todo__react/static/css/main.8bf298b1.css.map",
+    "main.477e1c23.js.map": "/todo__react/static/js/main.477e1c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.487db975.css",
-    "static/js/main.d4516ba8.js"
+    "static/css/main.8bf298b1.css",
+    "static/js/main.477e1c23.js"
   ]
 }
