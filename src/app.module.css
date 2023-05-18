@@ -1,24 +1,50 @@
 @media screen and (min-width: 350px) {
   .container {
     width: 320px;
+    background-image: url('./img/папка.png');
+    box-shadow: 5px 5px 5px rgb(66, 67, 67);
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 700px;
+    height: 1800px;
+    background-image: url('./img/folder-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: none;
+  }
+  .h2 {
+    position: absolute;
+    top: 0px;
+    left: 430px;
+  }
+  .h1 {
+    width: 50px;
+    font-size: 20px;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    transform: rotate(-25deg);
+  }
+  .task {
+    position: absolute;
+    top: 50px;
+    left: 350px;
   }
 }
 .container {
-  background-color: rgb(193, 198, 198);
-  padding: 20px 20px 40px 20px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgb(66, 67, 67);
+  position: relative;
+
+  padding: 10px 10px 20px 10px;
+  /* border-radius: 10px; */
   margin-left: auto;
   margin-right: auto;
 }
-/* .filter {
-  background-color: rgb(16, 222, 222);
+.filter {
+  margin-left: 30px;
+  margin-top: 50px;
 }
-.task {
+/* .task {
   background-color: rgb(222, 129, 16);
 } */

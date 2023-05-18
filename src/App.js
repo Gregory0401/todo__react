@@ -97,9 +97,11 @@ function App(props) {
 
   return (
     <div className={s.container}>
+      <h1 className={s.h1}>What needs to be done?</h1>
       <Form addTask={addTask} />
       <div className={s.filter}>{filterList}</div>
-      <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
+
+      <h2 ref={listHeadingRef} className={s.h2}>
         {headingText}
       </h2>
       <ul className={s.task} aria-labelledby="list-heading">
