@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/todo__react/static/css/main.8bf298b1.css",
+    "main.css": "/todo__react/static/css/main.c43a6d0f.css",
     "main.js": "/todo__react/static/js/main.477e1c23.js",
+    "static/media/Pacifico-Regular.ttf": "/todo__react/static/media/Pacifico-Regular.7bdf9e5e21239393db89.ttf",
     "static/media/папка.png": "/todo__react/static/media/папка.948ccc47ac7c267dfeac.png",
+    "static/media/DancingScript-Bold.ttf": "/todo__react/static/media/DancingScript-Bold.7b161e4b34f18d21d23e.ttf",
     "static/media/folder-desktop.png": "/todo__react/static/media/folder-desktop.2255f80534a999aec277.png",
     "index.html": "/todo__react/index.html",
-    "main.8bf298b1.css.map": "/todo__react/static/css/main.8bf298b1.css.map",
+    "main.c43a6d0f.css.map": "/todo__react/static/css/main.c43a6d0f.css.map",
     "main.477e1c23.js.map": "/todo__react/static/js/main.477e1c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf298b1.css",
+    "static/css/main.c43a6d0f.css",
     "static/js/main.477e1c23.js"
   ]
 }
