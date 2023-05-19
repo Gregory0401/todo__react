@@ -70,12 +70,14 @@ function App(props) {
     ));
 
   const filterList = FILTER_NAMES.map(name => (
-    <FilterButton
-      key={name}
-      name={name}
-      isPressed={name === filter}
-      setFilter={setFilter}
-    />
+    <li>
+      <FilterButton
+        key={name}
+        name={name}
+        isPressed={name === filter}
+        setFilter={setFilter}
+      />
+    </li>
   ));
 
   function addTask(name) {
@@ -99,8 +101,13 @@ function App(props) {
     <div className={s.container}>
       <h1 className={s.h1}>What needs to be done?</h1>
       <Form addTask={addTask} />
-      <div className={s.filter}>{filterList}</div>
-
+      <div className={s.container2}>
+        <div className={s.container3}>
+          <ul className={s.filter}>{filterList}</ul>
+        </div>
+      </div>
+      <p className={s.text}>Write a task</p>
+      <div className={s.arrow}></div>
       <h2 ref={listHeadingRef} className={s.h2}>
         {headingText}
       </h2>

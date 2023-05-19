@@ -1,0 +1,12 @@
+.button {
+  font-family: 'Dancing Script';
+  cursor: pointer;
+  background-color: rgb(14, 13, 13);
+  color: rgb(255, 255, 255);
+  border: none;
+  margin-top: 10px;
+  align-items: center;
+}
+.button_text:hover {
+  transform: scale(1.2);
+}

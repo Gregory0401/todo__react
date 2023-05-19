@@ -19,18 +19,24 @@ function Form(props) {
 
   return (
     <form onSubmit={handleSubmit} className={s.form}>
-      <input
-        type="text"
-        id="new-todo-input"
-        className="input input__lg"
-        name="text"
-        autoComplete="off"
-        value={name}
-        onChange={handleChange}
-      />
-      <button type="submit" className="btn btn__primary btn__lg">
-        Add
-      </button>
+      <div className={s.input_container}>
+        <input
+          type="text"
+          id="new-todo-input"
+          className={s.input}
+          name="text"
+          autoComplete="off"
+          value={name}
+          onChange={handleChange}
+          placeholder="write a task"
+        />
+      </div>
+
+      <div className={s.button_container}>
+        <button type="submit" className={s.button}>
+          Add
+        </button>
+      </div>
     </form>
   );
 }

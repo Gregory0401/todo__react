@@ -1,15 +1,15 @@
 import React from 'react';
+import s from './FilterButton.module.css';
 
 function FilterButton(props) {
   return (
     <button
       type="button"
-      className="btn toggle-btn"
+      className={s.button}
       aria-pressed={props.isPressed}
       onClick={() => props.setFilter(props.name)}
     >
-      <span className="visually-hidden">{props.name}</span>
-      <span className="visually-hidden"> tasks</span>
+      <div className={s.button_text}> {props.name} tasks</div>
     </button>
   );
 }
