@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/todo__react/static/css/main.c43a6d0f.css",
-    "main.js": "/todo__react/static/js/main.477e1c23.js",
+    "main.css": "/todo__react/static/css/main.0239a41d.css",
+    "main.js": "/todo__react/static/js/main.7b756c95.js",
     "static/media/Pacifico-Regular.ttf": "/todo__react/static/media/Pacifico-Regular.7bdf9e5e21239393db89.ttf",
     "static/media/папка.png": "/todo__react/static/media/папка.948ccc47ac7c267dfeac.png",
     "static/media/DancingScript-Bold.ttf": "/todo__react/static/media/DancingScript-Bold.7b161e4b34f18d21d23e.ttf",
+    "static/media/lastik.png": "/todo__react/static/media/lastik.10f1f2e6ce6d9a6dfe6a.png",
+    "static/media/pensil.png": "/todo__react/static/media/pensil.1683bb2d6542564f723c.png",
+    "static/media/strelka.png": "/todo__react/static/media/strelka.48eeb8ff7153b011b167.png",
     "static/media/folder-desktop.png": "/todo__react/static/media/folder-desktop.2255f80534a999aec277.png",
     "index.html": "/todo__react/index.html",
-    "main.c43a6d0f.css.map": "/todo__react/static/css/main.c43a6d0f.css.map",
-    "main.477e1c23.js.map": "/todo__react/static/js/main.477e1c23.js.map"
+    "main.0239a41d.css.map": "/todo__react/static/css/main.0239a41d.css.map",
+    "main.7b756c95.js.map": "/todo__react/static/js/main.7b756c95.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43a6d0f.css",
-    "static/js/main.477e1c23.js"
+    "static/css/main.0239a41d.css",
+    "static/js/main.7b756c95.js"
   ]
 }
