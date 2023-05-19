@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-
+import React, { useEffect, useRef, useState } from 'react';
+import s from './Todo.module.css';
 
 function usePrevious(value) {
   const ref = useRef();
@@ -28,16 +28,14 @@ export default function Todo(props) {
       return;
     }
     props.editTask(props.id, newName);
-    setNewName("");
+    setNewName('');
     setEditing(false);
   }
 
   const editingTemplate = (
-    <form className="stack-small" onSubmit={handleSubmit}>
-      <div className="form-group">
-        <label className="todo-label" htmlFor={props.id}>
-          New name for {props.name}
-        </label>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor={props.id}>New name for {props.name}</label>
         <input
           id={props.id}
           className="todo-text"
@@ -47,57 +45,52 @@ export default function Todo(props) {
           ref={editFieldRef}
         />
       </div>
-      <div className="btn-group">
-
+      <div>
         <button
+          className={s.button_cancel}
           type="button"
-          className="btn todo-cancel"
           onClick={() => setEditing(false)}
         >
           Cancel
-          <span className="visually-hidden">renaming {props.name}</span>
         </button>
-        <button type="submit" className="btn btn__primary todo-edit">
+        <button className={s.button_save} type="submit">
           Save
-          <span className="visually-hidden">new name for {props.name}</span>
         </button>
       </div>
     </form>
   );
 
   const viewTemplate = (
-    <div className="stack-small">
-      <div className="c-cb">
-          <input
-            id={props.id}
-            type="checkbox"
-            defaultChecked={props.completed}
-            onChange={() => props.toggleTaskCompleted(props.id)}
-          />
-          <label className="todo-label" htmlFor={props.id}>
-            {props.name}
-          </label>
-        </div>
-        <div className="btn-group">
+    <div>
+      <div>
+        <input
+          id={props.id}
+          type="checkbox"
+          defaultChecked={props.completed}
+          onChange={() => props.toggleTaskCompleted(props.id)}
+          className={s.checkbox}
+        />
+        <label htmlFor={props.id}>{props.name}</label>
+      </div>
+      <div>
         <button
           type="button"
-          className="btn"
           onClick={() => setEditing(true)}
           ref={editButtonRef}
-          >
-            Edit <span className="visually-hidden">{props.name}</span>
-          </button>
-          <button
-            type="button"
-            className="btn btn__danger"
-            onClick={() => props.deleteTask(props.id)}
-          >
-            Delete <span className="visually-hidden">{props.name}</span>
-          </button>
-        </div>
+          className={s.button_edit}
+        >
+          Edit
+        </button>
+        <button
+          type="button"
+          className={s.button_delete}
+          onClick={() => props.deleteTask(props.id)}
+        >
+          X
+        </button>
+      </div>
     </div>
   );
-
 
   useEffect(() => {
     if (!wasEditing && isEditing) {
@@ -107,7 +100,6 @@ export default function Todo(props) {
       editButtonRef.current.focus();
     }
   }, [wasEditing, isEditing]);
-
 
   return <li className="todo">{isEditing ? editingTemplate : viewTemplate}</li>;
 }

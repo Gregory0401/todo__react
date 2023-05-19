@@ -1,0 +1,40 @@
+.button_delete {
+  background-color: rgb(0, 0, 0, 0);
+  border: none;
+  color: rgb(245, 7, 7);
+  font-size: 22px;
+  text-shadow: 5px 5px 5px rgb(98, 95, 95, 0.7);
+  cursor: pointer;
+}
+.button_edit {
+  background-color: rgb(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 16px;
+  text-shadow: 5px 5px 5px rgb(98, 95, 95, 0.7);
+  color: rgb(132, 94, 36);
+}
+.button_save {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0);
+  border: none;
+  font-size: 16px;
+  color: rgb(132, 94, 36);
+  text-shadow: 5px 5px 5px rgb(98, 95, 95, 0.7);
+  margin-right: 20px;
+}
+.button_cancel {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(0, 0, 0, 0);
+  font-size: 16px;
+  color: rgb(132, 94, 36);
+  text-shadow: 5px 5px 5px rgb(98, 95, 95, 0.7);
+  margin-right: 20px;
+}
+/* .checkbox {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+} */
