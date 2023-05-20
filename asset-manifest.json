@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/todo__react/static/css/main.0509678b.css",
-    "main.js": "/todo__react/static/js/main.813cb832.js",
+    "main.css": "/todo__react/static/css/main.83ad53f5.css",
+    "main.js": "/todo__react/static/js/main.3831eb84.js",
     "static/media/Pacifico-Regular.ttf": "/todo__react/static/media/Pacifico-Regular.7bdf9e5e21239393db89.ttf",
     "static/media/папка.png": "/todo__react/static/media/папка.948ccc47ac7c267dfeac.png",
     "static/media/DancingScript-Bold.ttf": "/todo__react/static/media/DancingScript-Bold.7b161e4b34f18d21d23e.ttf",
@@ -10,11 +10,11 @@
     "static/media/strelka.png": "/todo__react/static/media/strelka.48eeb8ff7153b011b167.png",
     "static/media/folder-desktop.png": "/todo__react/static/media/folder-desktop.2255f80534a999aec277.png",
     "index.html": "/todo__react/index.html",
-    "main.0509678b.css.map": "/todo__react/static/css/main.0509678b.css.map",
-    "main.813cb832.js.map": "/todo__react/static/js/main.813cb832.js.map"
+    "main.83ad53f5.css.map": "/todo__react/static/css/main.83ad53f5.css.map",
+    "main.3831eb84.js.map": "/todo__react/static/js/main.3831eb84.js.map"
   },
   "entrypoints": [
-    "static/css/main.0509678b.css",
-    "static/js/main.813cb832.js"
+    "static/css/main.83ad53f5.css",
+    "static/js/main.3831eb84.js"
   ]
 }
