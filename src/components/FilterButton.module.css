@@ -1,12 +1,23 @@
-.button {
-  font-family: 'Dancing Script';
-  cursor: pointer;
-  background-color: rgb(14, 13, 13);
-  color: rgb(255, 255, 255);
-  border: none;
-  margin-top: 10px;
-  align-items: center;
+@media screen and (min-width: 350px) {
+  .button {
+    font-family: 'Dancing Script';
+    cursor: pointer;
+    margin-top: 10px;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    text-shadow: 5px 5px 5px rgba(64, 62, 62, 0.8);
+  }
+  .button_text:hover {
+    transform: scale(1.2);
+  }
 }
-.button_text:hover {
-  transform: scale(1.2);
+
+@media screen and (min-width: 768px) {
+  .button {
+    background-color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
+    border: none;
+    text-shadow: none;
+  }
 }

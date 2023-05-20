@@ -70,7 +70,7 @@ function App(props) {
     ));
 
   const filterList = FILTER_NAMES.map(name => (
-    <li>
+    <li className={s.item}>
       <FilterButton
         key={name}
         name={name}

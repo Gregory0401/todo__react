@@ -14,6 +14,40 @@
     background-image: url('./img/папка.png');
     box-shadow: 5px 5px 5px rgb(66, 67, 67);
   }
+  .h1 {
+    font-family: 'Dancing Script';
+  }
+  .text {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+  .container {
+    padding: 20px 35px 30px 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container3 {
+    width: 120px;
+    height: 120px;
+  }
+  .container2 {
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .filter {
+    display: flex;
+    list-style: none;
+  }
+  .item {
+    margin-right: 20px;
+  }
+  .h2 {
+    font-family: 'Dancing Script';
+    margin-left: 75px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -24,11 +58,14 @@
     background-size: contain;
     box-shadow: none;
   }
+  .item {
+    margin-right: 0;
+  }
   .h2 {
     font-family: 'Dancing Script';
     position: absolute;
     top: 0px;
-    left: 430px;
+    left: 360px;
   }
   .h1 {
     font-family: 'Dancing Script';
@@ -47,6 +84,7 @@
     font-weight: 200;
   }
   .filter {
+    display: block;
     margin-left: 2px;
     list-style: none;
     padding: 0;
@@ -65,29 +103,31 @@
     height: 120px;
     background-color: rgb(14, 13, 13);
   }
-}
-.container {
-  position: relative;
-  padding: 10px 10px 20px 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.text {
-  position: absolute;
-  top: 40px;
-  left: 10px;
-  font-size: 24px;
-  font-family: 'Dancing Script';
-  transform: rotate(-45deg);
-}
-.arrow {
-  position: absolute;
-  top: 120px;
-  left: 20px;
-  width: 120px;
-  height: 120px;
-  background-image: url('./img/strelka.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: rotate(20deg);
+  .text {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 24px;
+    font-family: 'Dancing Script';
+    transform: rotate(-45deg);
+  }
+  .arrow {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    background-image: url('./img/strelka.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(20deg);
+  }
+  .container {
+    position: relative;
+    padding: 10px 10px 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
